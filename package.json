@@ -1,0 +1,15 @@
+{   
+    "name" : "nodeo3s",
+    "version" : "2.6.0",
+    "description" : "O3S nodejs extension",
+    "author": "Victor Andritoiu <victor.andritoiu@opentekhnia.com>",
+    "main": "./lib/nodeo3s.js",
+    "files": ["src", "lib", "binding.gyp", "package.json"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vandrito/node_o3s.git"
+    },
+    "scripts": {
+    	"install": "node-gyp clean configure build"
+    }
+}
